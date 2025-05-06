@@ -20,3 +20,7 @@ inputs:
     description: 'Github user email to commit'
     required: false
     default: ''
+
+branding:
+  icon: archive
+  color: purple
