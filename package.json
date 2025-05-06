@@ -1,6 +1,6 @@
 {
   "name": "gh-actions-reports-ttl-cleaner",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Testplane github pages old reports remover",
   "main": "dist/index.js",
   "type": "module",
