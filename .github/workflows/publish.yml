@@ -46,6 +46,7 @@ jobs:
                 git tag -d $TAG && \
                 git tag $TAG && \
                 git branch -f $MAJOR_BRANCH $TAG && \
-                git push --follow-tags && \
-                git push --follow-tags origin $MAJOR_BRANCH
+                git push && \
+                git push origin $MAJOR_BRANCH && \
+                git push origin tag $TAG
 
